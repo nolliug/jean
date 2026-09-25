@@ -4,7 +4,24 @@
   <meta charset="UTF-8" />
   <title>Jean Guillon – Chief Innovation Officer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Jean Guillon is Chief Innovation Officer at Vant Nexus, a leading consultant on ICANN new gTLDs, domain strategy, and innovative namespace projects." />
+  <meta
+    name="description"
+    content="Jean Guillon is Chief Innovation Officer at Vant Nexus, a leading consultant on ICANN new gTLDs, domain strategy, and innovative namespace projects."
+  />
+
+  <!-- Open Graph for LinkedIn / social sharing -->
+  <meta property="og:title" content="Jean Guillon – Chief Innovation Officer" />
+  <meta
+    property="og:description"
+    content="Chief Innovation Officer at Vant Nexus • ICANN new gTLDs • Domain & namespace strategy"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io/jean-guillon-intro/" />
+  <meta
+    property="og:image"
+    content="https://YOUR_USERNAME.github.io/jean-guillon-intro/og-image.jpg"
+  />
+
   <style>
     :root {
       --bg: #ffffff;
@@ -38,7 +55,7 @@
       padding: 40px 20px 80px;
     }
 
-    /* Header / Hero */
+    /* Hero */
     .hero {
       background: #ffffff;
       border: 1px solid var(--border);
@@ -166,3 +183,112 @@
       font-size: 12px;
       padding: 3px 9px;
       border-radius: 999px;
+      background: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #dbeafe;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+    li {
+      margin: 6px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Hero -->
+    <div class="hero">
+      <div class="avatar" aria-hidden="true">JG</div>
+      <div class="hero-content">
+        <h1>Jean Guillon</h1>
+        <p class="title">Chief Innovation Officer at Vant Nexus</p>
+        <span class="location">Dubai, United Arab Emirates</span>
+
+        <div class="actions">
+          <a
+            class="btn primary"
+            href="https://www.linkedin.com/in/guillon/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <!-- LinkedIn icon -->
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.451 20.451h-3.554v-5.573c0-1.327-.027-3.025-1.844-3.025-1.846 0-2.128 1.44-2.128 2.928v5.67H9.37V9.37h3.418v1.56h.049c.477-.904 1.644-1.857 3.383-1.857 3.619 0 4.286 2.384 4.286 5.483v5.895zM5.337 7.786a2.073 2.073 0 1 1 0-4.146 2.074 2.074 0 0 1 0 4.146zM7.11 20.451H3.562V9.37h3.548v11.081z"/>
+            </svg>
+            View LinkedIn Profile
+          </a>
+          <a
+            class="btn"
+            href="mailto:contact@example.com"
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section>
+      <h2>About</h2>
+      <div class="card">
+        <p class="meta">
+          An experienced, results‑driven executive focused on innovation in the domain name industry, ICANN new gTLD programs, and strategic namespace development.
+        </p>
+        <p>
+          Jean Guillon serves as Chief Innovation Officer at Vant Nexus, where he advises on new gTLD applications, domain portfolio strategy, and innovative uses of the DNS. He combines deep technical understanding with business strategy to help organizations leverage the internet’s naming infrastructure for growth and differentiation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Focus Areas -->
+    <section>
+      <h2>Focus Areas</h2>
+      <div class="card">
+        <div>
+          <span class="badge">New gTLD Strategy</span>
+          <span class="badge">ICANN Policy & Process</span>
+          <span class="badge">Domain Portfolio Strategy</span>
+          <span class="badge">Brand & Namespace Innovation</span>
+          <span class="badge">DNS & Internet Infrastructure</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Snapshot -->
+    <section>
+      <h2>Experience Snapshot</h2>
+      <div class="card">
+        <p><strong>Chief Innovation Officer</strong> – Vant Nexus</p>
+        <p class="meta">Dubai, United Arab Emirates</p>
+        <ul>
+          <li>Advising applicants and stakeholders on new gTLD programs and ICANN processes.</li>
+          <li>Developing innovative namespace concepts aligned with brand, product, and market strategy.</li>
+          <li>Supporting organizations in maximizing the strategic value of their domain assets.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Jean Guillon. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
